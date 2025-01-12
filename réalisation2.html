@@ -1,10 +1,155 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+
+    <!--- Basic Page Needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Réalisation 2</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Mobile Specific Metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/media-queries.css">
+
+    <!-- Script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+
+    <!-- Favicons
+     ================================================== -->
+    <link rel="shortcut icon" href="favicon.png" >
+
 </head>
-<body>
+
+<body id="real2">
+
+<!-- Header
+================================================== -->
+<header id="home">
+
+    <nav id="nav-wrap">
+
+        <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+        <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+        <ul id="nav" class="nav">
+            <li><a href="index.html#home">Accueil</a></li>
+            <li class="current"><a href="index.html#portfolio">Autres réalisations</a></li>
+        </ul>
+
+    </nav> <!-- end #nav-wrap -->
+
+    <div class="row banner">
+        <div class="banner-text">
+            <h1>Application de vote électronique</h1>
+            <hr />
+
+        </div>
+    </div>
+
+</header> <!-- Header End -->
+
+<!-- About Section
+   ================================================== -->
+<section id="about">
+
+    <div class="row">
+
+
+
+        <div class="nine columns main-col">
+
+            <h2>Contexte</h2>
+
+            <p>
+                Ce projet s’inscrit dans le cadre de la création d’une application de vote électronique sécurisée,
+                réalisée durant tout le premier semestre de la deuxième année du BUT Informatique à l’IUT Montpellier-Sète.
+                L’objectif principal
+                était de concevoir une solution répondant aux exigences de confidentialité, d’intégrité et de simplicité
+                pour faciliter les référendums internes des entreprises. Développé en équipe de cinq personnes, le projet
+                a été structuré autour de la méthode Agile SCRUM, permettant des livraisons incrémentales à chaque sprint.
+
+            </p>
+
+            <h2>Méthode de travail</h2>
+            <p>
+                Nous avons structuré notre approche en nous appuyant sur des outils collaboratifs comme GitLab pour
+                la gestion du code et Discord pour les échanges réguliers. Chaque sprint comprenait des réunions d'organisation
+                et de restitution avec le client, garantissant une évolution continue et adaptée du projet.
+                Mon rôle dans ce projet consistait principalement à travailler sur la conception et l’implémentation des
+                sockets sécurisées permettant la communication entre les clients et le serveur, à développer une partie de l'interface graphique
+                et en tant que SCRUM Master à assurer
+                le suivi du projet,. L’application a été développée
+                en Java avec l'interface en SWING, en exploitant des techniques de cryptographie avancées comme le chiffrement ElGamal.
+
+
+            </p>
+            <h2>Résultats</h2>
+
+            L’application finale propose une interface simple et intuitive pour les électeurs, les administrateurs et les scrutateurs.
+            Elle garantit l’anonymat et la sécurité des données grâce à un protocole de chiffrement homomorphe,
+            permettant l’agrégation des votes sans déchiffrement intermédiaire. Des mécanismes robustes de gestion
+            des utilisateurs et de sécurisation des communications réseau ont été intégrés, répondant ainsi aux exigences du client.
+            Voici quelques exemples de l'interface :
+            <div>
+                <img  src="images/vote1.png" alt="" />
+                <img  src="images/vote2.png" alt="" />
+            </div>
+
+
+            <h2>Compétences travaillées</h2>
+            <p>
+                Ce projet a permis de mettre en pratique des compétences variées,
+                allant de la conception d’algorithmes de cryptographie à l’optimisation des communications
+                réseau avec les sockets. La gestion agile a renforcé notre capacité à collaborer en équipe et à nous adapter
+                aux besoins du client. Enfin, l’expérience acquise dans l’utilisation de modèles de conception comme Singleton
+                et Fabrique a consolidé nos bases en architecture logicielle, tout en assurant la maintenabilité et l’évolutivité du code.
+
+            </p>
+        </div> <!-- end .main-col -->
+
+    </div>
+
+</section> <!-- About Section End-->
+
+
+
+<!-- footer
+================================================== -->
+<footer>
+
+    <div class="row">
+
+        <div class="twelve columns">
+
+            <ul class="copyright">
+                <li>&copy; 2025 Adrien Fesquet</li>
+                <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>
+            </ul>
+
+        </div>
+
+        <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+    </div>
+
+</footer> <!-- Footer End-->
+
+<!-- Java Script
+================================================== -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
 
 </body>
+
 </html>

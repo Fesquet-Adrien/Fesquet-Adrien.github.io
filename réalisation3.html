@@ -1,10 +1,151 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+
+    <!--- Basic Page Needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Réalisation 3</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Mobile Specific Metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/media-queries.css">
+
+    <!-- Script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+
+    <!-- Favicons
+     ================================================== -->
+    <link rel="shortcut icon" href="favicon.png" >
+
 </head>
-<body>
+
+<body id="real3">
+
+<!-- Header
+================================================== -->
+<header id="home">
+
+    <nav id="nav-wrap">
+
+        <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+        <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+        <ul id="nav" class="nav">
+            <li><a href="index.html#home">Accueil</a></li>
+            <li class="current"><a href="index.html#portfolio">Autres réalisations</a></li>
+        </ul>
+
+    </nav> <!-- end #nav-wrap -->
+
+    <div class="row banner">
+        <div class="banner-text">
+            <h1>Site de e-commerce</h1>
+            <hr />
+
+        </div>
+    </div>
+
+</header> <!-- Header End -->
+
+<!-- About Section
+   ================================================== -->
+<section id="about">
+
+    <div class="row">
+
+
+
+        <div class="nine columns main-col">
+
+            <h2>Contexte</h2>
+
+            <p>
+                Ce projet de développement d'un site de e-commerce a été réalisé dans le cadre des travaux pratiques
+                du BUT Informatique à l’IUT Montpellier-Sète. Le but était de concevoir une plateforme permettant de
+                vendre des produits tout en mettant en œuvre les techniques apprises lors des cours de PHP et SQL.
+                Les groupes, constitués de trois étudiants, ont travaillé sur toutes les phases de création d'un site,
+                depuis la définition des besoins jusqu'au déploiement. Nous avons choisi de créer une plateforme de
+                vente de meubles. Le projet s'est déroulé du 7 octobre au 23 novembre.
+
+            </p>
+
+            <h2>Méthode de travail</h2>
+            <p>
+                Le projet a été géré en suivant une méthodologie Agile, avec des réunions régulières pour coordonner les tâches.
+                En tant que membre de l'équipe, ma principale responsabilité a été la gestion de la persistance des données,
+                la mise en place du système de commande et la gestion des paniers. J'ai conçu et implémenté les modèles de données,
+                en assurant leur intégration avec le système de gestion de base de données MySQL.
+                Le code était organisé selon le modèle MVC (Modèle-Vue-Contrôleur)
+                pour garantir la maintenabilité et l’évolutivité du projet.
+
+
+            </p>
+            <h2>Résultats</h2>
+
+            Le site final permet une gestion complète des produits, des commandes et des paniers,
+            tout en offrant un système de connexion sécurisé avec hachage des mots de passe.
+            Une structure MVC bien définie facilite la séparation des responsabilités et permet d’ajouter de nouvelles
+            fonctionnalités sans modifier les composants existants.
+            <div>
+                <img  src="images/commerce.png" alt="" />
+            </div>
+
+
+            <h2>Compétences travaillées</h2>
+            <p>
+                Ce projet a permis de renforcer des compétences techniques comme l’implémentation du modèle MVC,
+                la persistance des données et la gestion de la base de données SQL. Nous avons également appliqué des
+                techniques avancées de sécurisation, notamment pour le hachage des mots de passe et la gestion des sessions
+                utilisateur. Le travail en équipe a été central, nécessitant une coordination étroite et une utilisation
+                rigoureuse de GitLab pour le suivi des contributions.
+
+            </p>
+        </div> <!-- end .main-col -->
+
+    </div>
+
+</section> <!-- About Section End-->
+
+
+
+<!-- footer
+================================================== -->
+<footer>
+
+    <div class="row">
+
+        <div class="twelve columns">
+
+            <ul class="copyright">
+                <li>&copy; 2025 Adrien Fesquet</li>
+                <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>
+            </ul>
+
+        </div>
+
+        <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+    </div>
+
+</footer> <!-- Footer End-->
+
+<!-- Java Script
+================================================== -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
 
 </body>
+
 </html>

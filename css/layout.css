@@ -25,8 +25,14 @@
 body { background: #0f0f0f; }
 
 body#real1 header {
-    background: #161415 url(../images/header-background.jpg) no-repeat top center;
+    background: #161415 url(../images/trains.jpg) no-repeat top center;
 
+}
+body#real2 header {
+    background: #161415 url(../images/vote.jpg) no-repeat top center;
+}
+body#real3 header {
+    background: #161415 url(../images/real3.jpg) no-repeat top center;
 }
 
 /* ------------------------------------------------------------------ */
@@ -184,8 +190,7 @@ ul#nav li a {
 	transition: color .2s ease-in-out;
 }
 
-ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #F06000; }
+
 
 
 /* ------------------------------------------------------------------ */

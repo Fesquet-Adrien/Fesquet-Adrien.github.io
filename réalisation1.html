@@ -43,12 +43,19 @@
         <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
 
         <ul id="nav" class="nav">
-            <li class="current"><a href="#home">Accueil</a></li>
-            <li><a href="#about">A propos</a></li>
-            <li><a href="#portfolio">Réalisations</a></li>
-        </ul> <!-- end #nav -->
+            <li><a href="index.html#home">Accueil</a></li>
+            <li class="current"><a href="index.html#portfolio">Autres réalisations</a></li>
+        </ul>
 
     </nav> <!-- end #nav-wrap -->
+
+    <div class="row banner">
+        <div class="banner-text">
+            <h1> Projet Trains</h1>
+            <hr />
+
+        </div>
+    </div>
 
 </header> <!-- Header End -->
 
@@ -58,62 +65,74 @@
 
     <div class="row">
 
-        <div class="three columns">
 
-            <img class="profile-pic"  src="images/profilepic.jpg" alt="" />
-
-        </div>
 
         <div class="nine columns main-col">
 
-            <h2>A propos de moi</h2>
+            <h2>Contexte</h2>
 
-            <p> Etudiant en deuxième année de BUT Informatique à l’IUT Montpellier-Sète,
-                j'ai effectué parcours académique et professionnel axé sur les systèmes numériques.
-                Diplômé d’un BTS Systèmes Numériques option informatique et réseaux et titulaire d’un baccalauréat STI2D mention Bien,
-                je me suis spécialisé dans des projets techniques comme la simulation d’un tableau de bord de karting avec Raspberry Pi
-                et le développement d’une application de vote électronique sécurisée en Java.
-                Mes compétences couvrent des domaines variés tels que les réseaux, les bases de données,
-                la programmation en C et Java, ainsi que la gestion agile, démontrant ma polyvalence et
-                mon engagement dans le domaine informatique.
-
-
-            </p>
             <p>
-                J'ai également enrichi mon expérience lors d’un stage de
-                quatre semaines à la Sécurité Civile de Garons, où j'ai pu installer et dépanner des systèmes d’exploitation
-                tout en gérant un inventaire de matériels informatiques.
+                Ce projet a été réalisé dans le cadre des Situations d'Apprentissage et d'Évaluation (SAE) S2.01
+                du BUT Informatique à l’IUT Montpellier-Sète, entre le 27 mai et le 16 juin 2024.
+                Il s'agit de la phase 3 du projet Trains, centrée sur la création d'une interface graphique
+                en JavaFX. Le projet s'appuyait sur une logique de jeu déjà développée lors de la phase 1.
+                Vous pourrez retrouver une explication simple des règles du jeu sur <a href="https://youtu.be/PfovGtlg-yg?si=mgRNeiaY0B1ST6yY">ce lien</a>.
+                Les consignes précisaient de ne pas modifier cette logique, mais de construire une interface
+                graphique complète et réactive basée sur un code fourni sous forme de squelette.
+                Ce projet a été réalisé en équipe de 2 personnes.
+
             </p>
+
+            <h2>Méthode de travail</h2>
             <p>
-                Après l’obtention de mon BUT Informatique, mon projet professionnel est de me spécialiser davantage
-                en administration des réseaux, un domaine qui me passionne particulièrement depuis mes premières formations.
-                Je souhaite intégrer une entreprise en alternance pour consolider mes compétences techniques,
-                notamment en gestion de réseaux, cybersécurité et déploiement d’infrastructures.
-                Mon objectif à long terme est de devenir administrateur réseau dans un environnement où je pourrai mettre
-                en œuvre des solutions innovantes tout en assurant la sécurité et la performance des systèmes.
-                Cette ambition est motivée par mon envie de contribuer à des projets techniques complexes et
-                d’évoluer dans un secteur en constante évolution.
+                Nous avons adopté une méthode agile pour organiser le travail à l'aide de l'outil GitLab,
+                avec des points de synchronisation réguliers et une répartition claire des
+                responsabilités. Mon rôle principal était de concevoir et d’implémenter
+                la partie back-end du projet, contenant les mécaniques du jeu tandis que mon coéquipier
+                s'est penché sur la partie visuelle.
+                Le jeu a été développé en JAVA et grâce au framework JavaFX pour la création de l'interface.
+
+
+            </p>
+            <h2>Résultats</h2>
+
+            Au lancement de l'application, une page permettant de sélectionner les noms des joueurs et leurs nombres ainsi qu'une
+                option pour la sélectionner du plateau (OSAKA/TOKYO) s'affiche.
+            <div>
+                <img  src="images/lancement.png" alt="" />
+            </div>
+
+           En cliquant sur jouer l'interface principale s'affiche.
+            <div>
+                <img  src="images/interface.png" alt="" />
+            </div>
+            <p>
+                On peut identifier plusieurs parties sur l'interface.
+                Tout d'abord, le plateau de jeu permet au joueur de placer ses gares et rails.
+                Ensuite, la main du joueur actuel est située en haut à droite,
+                où sont affichées ses différentes cartes, pièces et points. La défausse
+                se trouve en bas à droite, tandis que le magasin est positionné en bas à gauche.
             </p>
 
-            <div class="row">
+            <h2>Compétences travaillées</h2>
+            <p>
+                Pour ce projet, nous avons développé une interface graphique complète en JavaFX,
+                en suivant des exigences précises et en respectant les contraintes techniques imposées.
+                Le travail a été structuré de manière à garantir une séparation claire entre la logique métier
+                et l’interface utilisateur, assurant ainsi une architecture cohérente et maintenable.
+                L’IHM a été conçue pour être réactive et ergonomique, avec des mises à jour dynamiques des composants
+                graphiques grâce à l’utilisation de bindings adaptés.
 
-                <div class="columns contact-details">
+                La gestion des données graphiques, comme l’affichage des scores, des cartes et des éléments du plateau,
+                a été pensée pour offrir une restitution claire et compréhensible des informations essentielles.
+                Les interactions utilisateur, comme le choix des actions ou la navigation dans l’IHM,
+                ont été soigneusement intégrées pour garantir une expérience fluide et intuitive.
 
-                    <h2>Details des contacts</h2>
-                    <p class="address">
-                        <span>Fesquet Adrien</span><br>
-                        <span>169 Impasse Philippe de Champaigne<br>
-						         34090, Montpellier, France<br>
-                </div>
+                Ce projet a également renforcé nos compétences en organisation et collaboration.
+                Nous avons travaillé en équipe de manière agile, en répartissant les tâches et en coordonnant
+                nos efforts pour garantir l’avancement du projet.
 
-                <div class="columns download">
-                    <p>
-                        <a href="assets/downloads/CV-Fesquet.pdf" download="CV-Fesquet.pdf" class="button"><i class="fa fa-download"></i>Télécharger mon CV</a>
-                    </p>
-                </div>
-
-            </div> <!-- end row -->
-
+            </p>
         </div> <!-- end .main-col -->
 
     </div>
