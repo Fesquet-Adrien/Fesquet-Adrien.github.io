@@ -1,38 +1,48 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Architecture HTML & CSS</title>
-    <!-- Lien des styles -->
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <title>Portfolio - Développeur Informatique</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<!-- Début de la structure de page -->
 <header>
-    <h1>Bienvenue</h1>
-    <nav>
-        <ul>
-            <li><a href="#section1">Section 1</a></li>
-            <li><a href="#section2">Section 2</a></li>
-        </ul>
-    </nav>
+    <h1>Votre Nom</h1>
+    <p>Développeur Informatique | Passionné par le Code et l'Innovation</p>
 </header>
 
-<main>
-    <section id="section1">
-        <h2>Section 1</h2>
-        <p>Contenu de la première section.</p>
+<div class="container">
+    <section class="about">
+        <h2>À Propos</h2>
+        <p>Je suis un développeur informatique passionné avec une expertise en développement web, logiciels, et solutions innovantes. Mon objectif est de créer des expériences utilisateur intuitives et des systèmes efficaces.</p>
     </section>
-    <section id="section2">
-        <h2>Section 2</h2>
-        <p>Contenu de la deuxième section.</p>
+
+    <section class="projects">
+        <h2>Projets</h2>
+        <div class="project">
+            <h3>Nom du Projet 1</h3>
+            <p>Description du projet, les technologies utilisées et le résultat obtenu.</p>
+        </div>
+        <div class="project">
+            <h3>Nom du Projet 2</h3>
+            <p>Description du projet, les technologies utilisées et le résultat obtenu.</p>
+        </div>
     </section>
-</main>
+
+    <section class="contact">
+        <h2>Contact</h2>
+        <form>
+            <input type="text" name="name" placeholder="Votre Nom" required>
+            <input type="email" name="email" placeholder="Votre Email" required>
+            <textarea name="message" rows="5" placeholder="Votre Message" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+</div>
 
 <footer>
-    <p>&copy; 2024 Mon Projet</p>
+    &copy; 2025 Votre Nom. Tous droits réservés.
 </footer>
 </body>
 </html>
