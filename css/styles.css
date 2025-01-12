@@ -1,71 +1,89 @@
-body {
-    font-family: Arial, sans-serif;
+/* Base styles */
+* {
     margin: 0;
     padding: 0;
-    background-color: #000;
-    color: #fff;
+    box-sizing: border-box;
 }
 
-header nav {
-    background-color: #111;
-    padding: 1rem;
+html, body {
+    font-family: 'FiraMono', monospace;
+    color: #f5f5f5;
+    background-color: #121212;
+    line-height: 1.5;
+    overflow-x: hidden;
+}
+
+p {
+    font-family: 'OpenSans', sans-serif;
+    font-size: 18px;
+    line-height: 1.4;
+    color: #a6a6a6;
+}
+
+p em {
+    color: #f5f5f5;
+}
+
+/* Utility classes */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.hidden {
+    display: none;
+}
+
+.flex {
     display: flex;
+}
+
+.flex-center {
     justify-content: center;
+    align-items: center;
 }
 
-header nav ul {
-    list-style: none;
-    display: flex;
-    gap: 1.5rem;
-    padding: 0;
-    margin: 0;
+.relative {
+    position: relative;
 }
 
-header nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1rem;
+.absolute {
+    position: absolute;
 }
 
-.hero {
-    text-align: center;
-    padding: 4rem 1rem;
-    background-image: url('image.png'); /* Assuming the image is named 'image.png' */
-    background-size: cover;
-    background-position: center;
+/* Spacing */
+.space-x-16 > :not([hidden]) ~ :not([hidden]) {
+    margin-left: 16px;
 }
 
-.hero h1 {
-    font-size: 3rem;
-    margin: 0;
+.space-y-16 > :not([hidden]) ~ :not([hidden]) {
+    margin-top: 16px;
 }
 
-.hero p {
-    font-size: 1.25rem;
-    margin-top: 1rem;
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
 }
 
-section {
-    padding: 2rem 1rem;
+.text-right {
+    text-align: right;
 }
 
-footer {
-    background-color: #111;
-    padding: 1rem;
-    text-align: center;
+.uppercase {
+    text-transform: uppercase;
 }
 
-footer ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 1.5rem;
-    padding: 0;
-    margin: 0;
+/* Buttons */
+button {
+    background-color: #f5f5f5;
+    color: #121212;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
-footer ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1rem;
+button:hover {
+    background-color: #e0e0e0;
 }
