@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+
+    <!--- Basic Page Needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Réalisation 4</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Mobile Specific Metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/media-queries.css">
+
+    <!-- Script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+
+    <!-- Favicons
+     ================================================== -->
+    <link rel="shortcut icon" href="favicon.png" >
+
+</head>
+
+<body id="real4">
+
+<!-- Header
+================================================== -->
+<header id="home">
+
+    <nav id="nav-wrap">
+
+        <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+        <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+        <ul id="nav" class="nav">
+            <li><a href="index.html#home">Accueil</a></li>
+            <li class="current"><a href="index.html#portfolio">Autres réalisations</a></li>
+        </ul>
+
+    </nav> <!-- end #nav-wrap -->
+
+    <div class="row banner">
+        <div class="banner-text">
+            <h1>Projet Médiathèque</h1>
+            <hr />
+
+        </div>
+    </div>
+
+</header> <!-- Header End -->
+
+<!-- About Section
+   ================================================== -->
+<section id="about">
+
+    <div class="row">
+
+
+
+        <div class="nine columns main-col">
+
+            <h2>Contexte</h2>
+
+            <p>
+                Ce projet a été réalisé dans le cadre du module de développement web en deuxième année de BUT Informatique à l’IUT Montpellier-Sète.
+                L’objectif était de développer une application de gestion de médiathèque en JavaScript, en interaction directe avec une base de données via des appels AJAX.
+                Les utilisateurs devaient pouvoir gérer des adhérents, des livres et leurs emprunts, à travers une interface web dynamique et réactive.
+                Le projet s’est déroulé en binôme, avec une phase de conception, de développement puis de mise en ligne sur les serveurs de l’IUT.
+            </p>
+
+            <h2>Méthode de travail</h2>
+
+            <p>
+                Le projet reposait sur l’utilisation de la bibliothèque réactive développée en TD, associée à un backend PHP structuré selon une architecture MVC.
+                J’ai conçu un objet JavaScript central contenant toutes les données de la médiathèque (adhérents, livres, emprunts), et utilisé les attributs personnalisés
+                pour déclencher automatiquement le rafraîchissement de l’interface à chaque modification de l’état.
+                En parallèle, les interactions avec la base de données étaient réalisées via des appels `fetch()` asynchrones, en `GET` ou `POST`, pour garantir la cohérence des données et une interface fluide.
+            </p>
+
+            <h2>Résultats</h2>
+
+            <p>
+                L'application finale permet l'ajout, la suppression et la visualisation en temps réel des adhérents, livres et emprunts.
+                Elle propose une interface interactive avec des icônes cliquables, un affichage réactif du nombre d’emprunts, et des boîtes de dialogue pour prêter ou rendre un livre.
+                L’état est synchronisé en permanence avec la base, ce qui garantit une cohérence parfaite entre les actions de l’utilisateur et les données affichées.
+            </p>
+
+            <div>
+                <img src="images/mediatheque1.png" alt="Aperçu de la médiathèque" />
+                <img src="images/mediatheque2.png" alt="Emprunts par adhérent" />
+            </div>
+
+            <h2>Compétences travaillées</h2>
+
+            <p>
+                Ce projet a permis de consolider des compétences avancées en JavaScript, notamment autour de la programmation asynchrone avec `fetch()`,
+                la gestion d’une interface pilotée par un modèle de données réactif, et l’intégration d’un backend PHP.
+                La conception orientée objet du frontend, la manipulation de la base de données MySQL, et l’approche centrée utilisateur ont constitué
+                une expérience complète de développement d'application dynamique. Enfin, une attention particulière a été portée à l’organisation du code,
+                au suivi sur GitLab, et à la clarté des fonctions et structures.
+            </p>
+
+        </div>
+
+
+    </div>
+
+</section> <!-- About Section End-->
+
+
+
+<!-- footer
+================================================== -->
+<footer>
+
+    <div class="row">
+
+        <div class="twelve columns">
+
+            <ul class="copyright">
+                <li>&copy; 2025 Adrien Fesquet</li>
+                <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>
+            </ul>
+
+        </div>
+
+        <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+    </div>
+
+</footer> <!-- Footer End-->
+
+<!-- Java Script
+================================================== -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+
+</body>
+
+</html>

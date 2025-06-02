@@ -34,6 +34,9 @@ body#real2 header {
 body#real3 header {
     background: #161415 url(../images/real3.jpg) no-repeat top center;
 }
+body#real4 header {
+    background: #161415 url(../images/real4.jpg) no-repeat top center;
+}
 
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
@@ -64,7 +67,7 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;s
+   padding-bottom: 30px;
    text-align: center;
 }
 
