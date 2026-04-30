@@ -40,13 +40,14 @@ body#real4 header {
 body#real5 header {
     background: #161415 url(../images/real5.jpg) no-repeat top center;
 }
+body#real6 header {
+    background: #161415 url(../images/real6.png) no-repeat top center;
+}
 
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
-#portfolio-wrapper .columns {
-    width: 20% !important;
-}
+
 
 header {
    position: relative;
