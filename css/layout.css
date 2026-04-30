@@ -37,11 +37,16 @@ body#real3 header {
 body#real4 header {
     background: #161415 url(../images/real4.jpg) no-repeat top center;
 }
+body#real5 header {
+    background: #161415 url(../images/real5.jpg) no-repeat top center;
+}
 
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
-
+#portfolio-wrapper .columns {
+    width: 20% !important;
+}
 
 header {
    position: relative;
